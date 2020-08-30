@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(n,t,i){"use strict";i.r(t),i.d(t,"default",(function(){return u}));var e=i("q1tI"),c=i.n(e);function u(){return c.a.createElement("div",null,"This is the first public commit")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-54b666f46af9bf277419.js.map

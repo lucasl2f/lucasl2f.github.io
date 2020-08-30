@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["Home"],"mappings":"2FAAA,wEAEe,SAASA,IACtB,OAAO","file":"component---src-pages-index-js-54b666f46af9bf277419.js","sourcesContent":["import React from \"react\"\n\nexport default function Home() {\n  return <div>This is the first public commit</div>\n}\n"],"sourceRoot":""}
