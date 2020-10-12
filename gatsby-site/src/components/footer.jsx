@@ -3,8 +3,6 @@ import React from "react";
 export default function Footer({}) {
   return (
     <div style={{
-      position: "absolute",
-      bottom: 0,
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",

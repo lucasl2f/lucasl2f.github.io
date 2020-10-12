@@ -43,7 +43,7 @@ export default function Navigation() {
         <Divider />
         <Link title="Jogos" page="/" />
         <Divider />
-        <Link title="Filmes" page="/" />
+        <Link title="Filmes" page="/movies" />
       </div>
     </div>
   );
