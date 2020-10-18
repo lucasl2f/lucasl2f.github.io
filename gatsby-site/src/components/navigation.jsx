@@ -29,7 +29,9 @@ export default function Navigation() {
       alignItems: "center",
       width: "100%",
       height: "80px",
-      backgroundColor: "#035C5C"
+      backgroundColor: "#035C5C",
+      position: "sticky",
+      top: 0,
     }}>
       <div style={{
         display: "flex",
@@ -41,7 +43,7 @@ export default function Navigation() {
         <Divider />
         <Link title="3D" page="/" />
         <Divider />
-        <Link title="Jogos" page="/" />
+        <Link title="Jogos" page="/games" />
         <Divider />
         <Link title="Filmes" page="/movies" />
       </div>

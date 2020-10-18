@@ -1,4 +1,5 @@
 import React from "react";
+import Background from "../images/header_background.jpg"
 
 export default function Header({title, subtitle}) {
   return (
@@ -7,7 +8,8 @@ export default function Header({title, subtitle}) {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: "#007C7C",
+      backgroundImage: `url(${Background})`,
+      backgroundSize: "cover",
       width: "100%",
       height: "200px"
     }}>
