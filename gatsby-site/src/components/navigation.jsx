@@ -41,7 +41,7 @@ export default function Navigation() {
       }}>
         <Link title="Início" page="/" />
         <Divider />
-        <Link title="3D" page="/" />
+        <Link title="3D" page="/threed" />
         <Divider />
         <Link title="Jogos" page="/games" />
         <Divider />

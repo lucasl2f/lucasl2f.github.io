@@ -16,7 +16,7 @@ export const ProductCard = ({ title, imageCover, buttonName, about, occupation, 
       width: "800px",
     }}>
       {!inverted &&
-      <img src={imageCover} alt="product-image" style={imageStyle}/>}
+      <img src={imageCover} alt={`${title}`} style={imageStyle}/>}
       <div style={{display: "flex", flexDirection: "column"}}>
         {title && <span><b>Título: </b>{title}</span>}
         {year && <span><b>Ano: </b>{year}</span>}
@@ -31,7 +31,7 @@ export const ProductCard = ({ title, imageCover, buttonName, about, occupation, 
         }}>{buttonName || "Saiba mais"}</a>}
       </div>
       {inverted &&
-      <img src={imageCover} alt="product-image" style={imageStyle}/>}
+      <img src={imageCover} alt={`${title}`} style={imageStyle}/>}
     </div>
   );
 }
