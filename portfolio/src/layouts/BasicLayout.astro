@@ -1,23 +1,16 @@
+---
 import "../styles/global.css";
+import Navbar from "../components/Navbar.astro";
+import Section from "../components/Section.astro";
+import MovieCard from "../components/MovieCard.astro";
+---
 
 <html class="dark">
     <body class="bg-gray-900 text-white">
-        <nav
-            class="fixed w-full bg-gray-800 p-4 top-0 z-50 flex justify-center space-x-4"
-        >
-            <a href="#home" class="hover:text-gray-400">Home</a>
-            <a href="#projects" class="hover:text-gray-400">Projects</a>
-            <a href="#renders" class="hover:text-gray-400">3D Renders</a>
-            <a href="#movies" class="hover:text-gray-400">Short Movies</a>
-            <a href="#contact" class="hover:text-gray-400">Contact</a>
-        </nav>
-        <section
-            id="home"
-            class="min-h-screen flex flex-col items-center justify-center text-center p-10 animate-fadeIn"
-        >
-            <div class="bg-black bg-opacity-50 p-6 rounded-lg">
-                <h1 class="text-4xl font-bold">Welcome to My Portfolio</h1>
-                <p class="text-lg text-gray-400 mt-4 max-w-2xl">
+        <Navbar />
+        <Section id="home" title="Welcome to My Portfolio">
+            <div class="p-6 rounded-lg text-center">
+                <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
                     I'm a game programmer and 3D artist passionate about
                     creating immersive digital experiences. Explore my projects,
                     renders, and short movies below.
@@ -28,9 +21,8 @@ import "../styles/global.css";
                     >View My Work</a
                 >
             </div>
-        </section>
-        <section id="projects" class="min-h-screen p-10">
-            <h2 class="text-3xl mb-4">Projects</h2>
+        </Section>
+        <Section id="projects" title="Projects">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
                     Placeholder for project
@@ -42,9 +34,8 @@ import "../styles/global.css";
                     Placeholder for project
                 </div>
             </div>
-        </section>
-        <section id="renders" class="min-h-screen p-10">
-            <h2 class="text-3xl mb-4">3D Renders</h2>
+        </Section>
+        <Section id="renders" title="3D Renders">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
                     Placeholder for 3D Render
@@ -56,52 +47,35 @@ import "../styles/global.css";
                     Placeholder for 3D Render
                 </div>
             </div>
-        </section>
-        <section id="movies" class="min-h-screen p-10">
-            <h2 class="text-3xl mb-4">Short Movies</h2>
+        </Section>
+        <Section id="movies" title="Short Movies">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
-                    <img
-                        src="https://via.placeholder.com/300"
-                        alt="Movie Thumbnail"
-                        class="w-full rounded-lg mb-2"
-                    />
-                    <h3 class="text-xl font-semibold">Movie Title</h3>
-                    <p class="text-sm text-gray-400">
-                        Short description of the movie.
-                    </p>
-                    <p class="text-sm text-gray-500">Released: YYYY-MM-DD</p>
-                    <p class="text-sm text-gray-500">Role: Your Occupation</p>
-                    <a href="#" class="text-blue-400 hover:underline"
-                        >Watch on YouTube</a
-                    >
-                </div>
-                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
-                    <img
-                        src="https://via.placeholder.com/300"
-                        alt="Movie Thumbnail"
-                        class="w-full rounded-lg mb-2"
-                    />
-                    <h3 class="text-xl font-semibold">Movie Title</h3>
-                    <p class="text-sm text-gray-400">
-                        Short description of the movie.
-                    </p>
-                    <p class="text-sm text-gray-500">Released: YYYY-MM-DD</p>
-                    <p class="text-sm text-gray-500">Role: Your Occupation</p>
-                    <a href="#" class="text-blue-400 hover:underline"
-                        >Watch on YouTube</a
-                    >
-                </div>
+                <MovieCard
+                    title="Movie Title"
+                    description="Short description of the movie."
+                    releaseDate="YYYY-MM-DD"
+                    role="Your Occupation"
+                    imageUrl="https://picsum.photos/seed/picsum/1600/900"
+                    youtubeUrl="#"
+                />
+                <MovieCard
+                    title="Movie Title"
+                    description="Short description of the movie."
+                    releaseDate="YYYY-MM-DD"
+                    role="Your Occupation"
+                    imageUrl="https://via.placeholder.com/300"
+                    youtubeUrl="#"
+                />
             </div>
-        </section>
-        <section id="contact" class="min-h-screen p-10 text-center">
-            <h2 class="text-3xl mb-4">Contact</h2>
-            <p>
+        </Section>
+        <Section id="contact" title="Contact">
+            <p class="text-center">
                 Find me on <a href="#" class="text-blue-400 hover:underline"
                     >GitHub</a
                 > and <a href="#" class="text-blue-400 hover:underline"
-                    >LinkedIn</a>
+                    >LinkedIn</a
+                >
             </p>
-        </section>
+        </Section>
     </body>
 </html>

@@ -1,0 +1,21 @@
+---
+const { title, description, releaseDate, role, imageUrl, youtubeUrl } =
+    Astro.props;
+---
+
+<div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+    <div class="aspect-3/2">
+        <img
+            src={imageUrl}
+            alt="{title} Thumbnail"
+            class="w-full h-full object-cover rounded-2xl"
+        />
+    </div>
+    <h3 class="text-xl font-semibold mt-2">{title}</h3>
+    <p class="text-sm text-gray-400">{description}</p>
+    <p class="text-sm text-gray-500">Released: {releaseDate}</p>
+    <p class="text-sm text-gray-500">Role: {role}</p>
+    <a href={youtubeUrl} class="text-blue-400 hover:underline"
+        >Watch on YouTube</a
+    >
+</div>
