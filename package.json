@@ -12,6 +12,8 @@
     "@astrojs/preact": "^4.0.11",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",
+    "@iconify-json/devicon": "^1.2.23",
+    "@iconify-json/skill-icons": "^1.2.0",
     "@tailwindcss/vite": "^4.0.8",
     "@vercel/speed-insights": "^1.2.0",
     "alpinejs": "^3.14.9",

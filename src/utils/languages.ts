@@ -5,113 +5,80 @@ export interface Language {
 }
 
 export const languages: Record<string, Language> = {
-  angular: {
-    name: "Angular",
-    iconName: "angular",
+  unity: {
+    name: "Unity",
+    iconName: "devicon:unity",
   },
-  astro: {
-    name: "Astro",
-    iconName: "astro",
+  blender: {
+    name: "Blender",
+    iconName: "devicon:blender",
   },
-  bootstrap: {
-    name: "Bootstrap",
-    iconName: "bootstrap",
+  photoshop: {
+    name: "Photoshop",
+    iconName: "devicon:photoshop",
   },
-  cloudflare: {
-    name: "Cloudflare",
-    iconName: "cloudflare",
+  gimp: {
+    name: "Gimp",
+    iconName: "devicon:gimp",
   },
-  html: {
-    name: "HTML 5",
-    iconName: "html",
-  },
-  javascript: {
-    name: "JavaScript",
-    iconName: "javascript",
-  },
-  mongo: {
-    name: "MongoDb",
-    iconName: "mongo",
-  },
-  mysql: {
-    name: "MySQL",
-    className: "!bg-[#f6ece1]",
-    iconName: "mysql",
-  },
-  wordpress: {
-    name: "Wordpress",
-    iconName: "wordpress",
-  },
-  node: {
-    name: "Node.js",
-    iconName: "node",
-  },
-  tailwind: {
-    name: "Tailwind CSS",
-    iconName: "tailwind",
-  },
-  figma: {
-    name: "Figma",
-    iconName: "figma",
-  },
-  firebase: {
-    name: "Firebase",
-    iconName: "firebase",
-  },
-  markdown: {
-    name: "Markdown",
-    iconName: "markdown",
-  },
-  php: {
-    name: "PHP",
-    iconName: "php",
-  },
-  sass: {
-    name: "Sass",
-    iconName: "sass",
-  },
-  ts: {
-    name: "TypeScript",
-    iconName: "typescript",
+  csharp: {
+    name: "C#",
+    iconName: "devicon:csharp",
   },
   git: {
     name: "Git",
-    iconName: "git",
+    iconName: "devicon:git",
+  },
+  premiere: {
+    name: "Premiere",
+    iconName: "skill-icons:premiere",
+  },
+  after: {
+    name: "After Effects",
+    iconName: "skill-icons:aftereffects",
+  },
+  linux: {
+    name: "Linux",
+    iconName: "devicon:linux",
+  },
+  astro: {
+    name: "Astro",
+    iconName: "devicon:astro",
+  },
+  html: {
+    name: "HTML 5",
+    iconName: "devicon:html5",
+  },
+  javascript: {
+    name: "JavaScript",
+    iconName: "devicon:javascript",
+  },
+  tailwind: {
+    name: "Tailwind CSS",
+    iconName: "devicon:tailwindcss",
+  },
+  figma: {
+    name: "Figma",
+    iconName: "devicon:figma",
+  },
+  markdown: {
+    name: "Markdown",
+    iconName: "devicon:markdown",
   },
   css: {
     name: "CSS",
-    iconName: "css",
-  },
-  vercel: {
-    name: "Vercel",
-    iconName: "vercel",
-  },
-  netlify: {
-    name: "Netlify",
-    iconName: "netlify",
+    iconName: "devicon:css3",
   },
   gatsby: {
     name: "Gatsby",
-    iconName: "gatsby",
-  },
-  windsurf: {
-    name: "Windsurf",
-    iconName: "windsurf-logo",
-  },
-  cursor: {
-    name: "Cursor",
-    iconName: "cursor-ia",
-  },
-  deepseek: {
-    name: "DeepSeek",
-    iconName: "deepseek",
+    iconName: "devicon:gatsby",
   },
   python: {
     name: "Python",
-    iconName: "python",
+    iconName: "devicon:python",
   },
 };
 
 export const getLanguage = (lang: string): Language => {
   return languages[lang] || languages.html;
-}; 
+};
