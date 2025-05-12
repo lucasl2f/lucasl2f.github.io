@@ -1,39 +1,62 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
 const EXPERIENCE = [
-  {
-    date: "2021 - Present",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
-    description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
-  },
-  {
-    date: "2019 - 2020",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
-    description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
-  },
-  
+    {
+        date: "2022 - 2025",
+        title: "Game Developer",
+        company: "Bunch Inc.",
+        description:
+            "Unity Game Developer focused on multiplayer games using Quantum. We've released several experiences and games to be played within Bunch app.",
+    },
+    {
+        date: "2021 - 2022",
+        title: "UX Designer",
+        company: "LuizaLabs",
+        description:
+            "Prototyped experiences to both improve existent in-house softwares and create new products.",
+    },
+    {
+        date: "2018 - 2021",
+        title: "Full Stack Engineer",
+        company: "Stoq",
+        description:
+            "Used many hats to develop new solutions to retail sector, mainly using React, Python, Postgres, among other technologies.",
+    },
+    {
+        date: "2015 - 2018",
+        title: "Game Developer",
+        company: "Grumpy Panda Studios",
+        description:
+            "Worked as a Game Programmer on Grand Shooter, an on-rails shooter for mobile devices that reached over 1.1 million downloads on Google Play. My responsibilities included developing core gameplay systems and creating internal tools to streamline production and improve team efficiency.",
+    },
+    {
+        date: "2013 - 2015",
+        title: "Game Developer Intern",
+        company: "SEaD UFSCar",
+        description:
+            "During my internship, I was responsible for developing and programming serious games using Unity, focusing on educational and training experiences.",
+    },
 ];
 ---
 
 <div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
-  <ol class="relative mt-10">
-    {
-      EXPERIENCE.map((experience, index) => (
-        <li class="">
-          <article role="article" aria-labelledby={`experience-title-${index}`}>
-            <div
-              class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
-              aria-describedby={`experience-title-${index}`}
-            >
-              <ExperienceItem {...experience} />
-            </div>
-          </article>
-        </li>
-      ))
-    }
-  </ol>
+    <ol class="relative mt-10">
+        {
+            EXPERIENCE.map((experience, index) => (
+                <li class="">
+                    <article
+                        role="article"
+                        aria-labelledby={`experience-title-${index}`}
+                    >
+                        <div
+                            class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+                            aria-describedby={`experience-title-${index}`}
+                        >
+                            <ExperienceItem {...experience} />
+                        </div>
+                    </article>
+                </li>
+            ))
+        }
+    </ol>
 </div>
