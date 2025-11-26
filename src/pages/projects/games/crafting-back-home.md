@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["godot"]
 youtubeLink: 'https://www.youtube.com/watch?v=1OChBZ7sBtU'
 image:
-  url: ""
+  url: "https://img.itch.zone/aW1hZ2UvMzkwMjU3Ny8yNDAyNTc4Ny5qcGc=/original/tc2lGh.jpg"
   alt: "Thumbnail of Crafting Back Home game."
 ---
 

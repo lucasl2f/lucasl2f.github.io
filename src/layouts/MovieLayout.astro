@@ -36,7 +36,11 @@ const { frontmatter } = Astro.props;
                 <Heading text={frontmatter.title} />
             </header>
 
-            <YouTube id={frontmatter.youtubeLink} />
+            {
+                frontmatter.youtubeLink && (
+                    <YouTube id={frontmatter.youtubeLink} />
+                )
+            }
 
             <div class="markdown" id="content">
                 <slot />
