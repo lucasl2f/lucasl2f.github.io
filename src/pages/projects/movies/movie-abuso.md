@@ -6,7 +6,7 @@ description: 'Short movie'
 languages: []
 youtubeLink: 'https://www.youtube.com/watch?v=DCweK4IpPIs'
 image:
-  url: "/images/projects/movie-abuso.png"
+  url: "/images/projects/movie-abuso.jpg"
   alt: "Thumbnail of Abuso short movie."
 ---
 

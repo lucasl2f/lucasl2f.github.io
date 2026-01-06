@@ -6,12 +6,12 @@ description: 'Videoclip'
 languages: []
 youtubeLink: ""
 image:
-  url: "/images/projects/movie-bad-things.png"
+  url: "/images/projects/movie-bad-things.jpg"
   alt: "Thumbnail of Bad Things short movie."
 ---
 
 <div>
-<img src="/images/projects/movie-bad-things.png" />
+<img src="/images/projects/movie-bad-things.jpg" />
 <br />
 </div>
 

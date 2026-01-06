@@ -5,12 +5,12 @@ pubDate: 2014-01-01
 description: 'Short movie'
 languages: []
 image:
-  url: "/images/projects/movie-abre-jogo.png"
+  url: "/images/projects/movie-abre-jogo.jpg"
   alt: "Thumbnail of Abre o Jogo short movie."
 ---
 
 <div>
-<img src="/images/projects/movie-abre-jogo.png" />
+<img src="/images/projects/movie-abre-jogo.jpg" />
 <br />
 </div>
 

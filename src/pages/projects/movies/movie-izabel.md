@@ -6,7 +6,7 @@ description: 'Short movie'
 languages: []
 youtubeLink: 'https://www.youtube.com/watch?v=Lx-fuBsdeoI'
 image:
-  url: "/images/projects/movie-izabel.png"
+  url: "/images/projects/movie-izabel.jpg"
   alt: "Thumbnail of Izabel short movie."
 ---
 
