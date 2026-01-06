@@ -10,8 +10,8 @@ image:
   alt: "Thumbnail of Abuso short movie."
 ---
 
-Augusto Ferraz é um professor do ensino fundamental de uma instituição de ensino particular. Viviane é uma de suas alunas, e a responsável por disseminar um boato que irá crescer a cada minuto.
+Augusto Ferraz is a primary school teacher at a private school. Viviane is one of his students, and she's responsible for spreading a rumor that will grow stronger every minute.
 
 ## 🧩 Rule
 
-- Animação 2D
+- 2D Animation

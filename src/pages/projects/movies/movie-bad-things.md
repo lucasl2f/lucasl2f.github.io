@@ -10,7 +10,12 @@ image:
   alt: "Thumbnail of Bad Things short movie."
 ---
 
-Disponível em: https://v1.genero.com///watch-video/37074
+<div>
+<img src="/images/projects/movie-bad-things.png" />
+<br />
+</div>
+
+Available at: https://v1.genero.com///watch-video/37074
 
 Houndmouth - Casino (Bad Things).
 
@@ -18,4 +23,4 @@ A girl and her group of friends go to a Brazilian bar. The use of B&W images vis
 
 ## 🧩 Rule
 
-- Operador de câmera
+- Camera operator

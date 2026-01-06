@@ -4,7 +4,7 @@ title: 'Rocket Lander'
 pubDate: 2025-09-15
 description: 'Game'
 languages: ["godot"]
-youtubeLink: 'https://www.youtube.com/watch?v=1OChBZ7sBtU'
+youtubeLink: 'https://youtu.be/JUF3M92Xawg'
 image:
   url: "https://img.itch.zone/aW1hZ2UvMzc4NjU0OC8yMjU4ODE5OS5wbmc=/original/zWnkDC.png"
   alt: "Thumbnail of Rocket Lander game."

@@ -10,8 +10,8 @@ image:
   alt: "Thumbnail of Thai short movie."
 ---
 
-**Thai** tem 15 anos e está começando a entender quem é. Em uma festa com sua irmã, tem um encontro que vai mudar sua perspectiva de si e do mundo.
+**Thai** is 15 years old and is beginning to understand who they are. At a party with a sibling, they have an encounter that will change their perspective on themself and the world.
 
 ## 🧩 Rule
 
-- Operador de câmera
+- Camera operator

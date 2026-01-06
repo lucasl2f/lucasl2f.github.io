@@ -10,9 +10,9 @@ image:
   alt: "Thumbnail of Izabel short movie."
 ---
 
-Em São Carlos, cidade conhecida por ter sido a última a abolir de fato a escravidão no Brasil, o documentário faz um passeio pelo bairro Vila Izabel, a fim de conhecer seus antigos moradores e compreender como suas histórias de vida se relacionam com a história do bairro fundado por ex-escravos.
+In São Carlos, a city known for being the last to effectively abolish slavery in Brazil, the documentary takes a tour through the Vila Izabel neighborhood to meet its former residents and understand how their life stories relate to the history of the neighborhood founded by former slaves.
 
 ## 🧩 Rule
 
-- Edição de vídeo
-- Pós-produção
+- Video editing
+- Post-production

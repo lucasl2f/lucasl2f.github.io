@@ -9,10 +9,15 @@ image:
   alt: "Thumbnail of Abre o Jogo short movie."
 ---
 
+<div>
+<img src="/images/projects/movie-abre-jogo.png" />
+<br />
+</div>
+
 Available at: https://www.dailymotion.com/video/k2mCjUeLsWi4D49wtxH
 
-Toni Ferreira é o técnico de uma seleção brasileira que não vai muito bem. Sofrendo pressões da imprensa e dos torcedores, decide procurar ajuda de um psicólogo. É aí que conhece Edson Guerra, um apaixonado por futebol que, de repente, se vê diante da oportunidade de conhecer e participar dos bastidores do mundo do futebol.
+Toni Ferreira is the coach of a Brazilian national team that isn't doing very well. Under pressure from the press and fans, he decides to seek help from a psychologist. That's when he meets Edson Guerra, a football enthusiast who suddenly finds himself with the opportunity to learn about and participate in the behind-the-scenes world of football.
 
 ## 🧩 Rule
 
-- Direção de fotografia
+- Director of Photography

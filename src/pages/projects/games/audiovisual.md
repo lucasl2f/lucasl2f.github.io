@@ -4,11 +4,14 @@ title: 'Produzindo Audiovisual'
 pubDate: 2013-01-01
 description: 'Game'
 languages: ["unity"]
-youtubeLink: 'https://www.youtube.com/watch?v=YnNBNa7CR50'
 image:
   url: "/images/projects/produzindo_av.jpg"
   alt: "Thumbnail of Produzindo Audiovisual game."
 ---
+<div>
+<img src="/images/projects/produzindo_av.jpg" />
+<br />
+</div>
 
 **Produzindo Audiovisual** is an adventure-style game designed to help educators learn how to produce their own video lessons and tutorials. 
 

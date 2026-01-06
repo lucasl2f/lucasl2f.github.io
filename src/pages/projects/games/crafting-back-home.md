@@ -10,7 +10,7 @@ image:
   alt: "Thumbnail of Crafting Back Home game."
 ---
 
-**Crafting Back Home** is a small time-travel crafting where you explore, collect materials, and combine them until you build the final piece.
+**Crafting Back Home** is a small time-travel crafting game where you explore, collect materials, and combine them until you build the final piece.
 
 Play it on Itch.io: https://metal2f.itch.io/crafting-back-home
 
