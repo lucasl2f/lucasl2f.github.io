@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["unity"]
 youtubeLink: 'https://youtu.be/kPbdj8A-Oh8'
 image:
-  url: "https://pbs.twimg.com/profile_banners/866724896553836544/1686853871/1500x500"
+  url: "images/projects/game-bunch.jpg"
   alt: "Thumbnail of Bunchverse app."
 ---
 

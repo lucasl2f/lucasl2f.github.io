@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["godot"]
 youtubeLink: 'https://youtu.be/JUF3M92Xawg'
 image:
-  url: "https://img.itch.zone/aW1hZ2UvMzc4NjU0OC8yMjU4ODE5OS5wbmc=/original/zWnkDC.png"
+  url: "images/projects/game-rocket-lander.jpg"
   alt: "Thumbnail of Rocket Lander game."
 ---
 

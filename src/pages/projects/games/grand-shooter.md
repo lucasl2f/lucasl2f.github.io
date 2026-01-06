@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["unity"]
 youtubeLink: 'https://www.youtube.com/watch?v=UI06yRco4S4'
 image:
-  url: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2935780/ss_35cc622826f5dab6a7318aa6574ec5e24b439348.1920x1080.jpg?t=1740162066"
+  url: "/images/projects/game-grand-shooter.jpg"
   alt: "Thumbnail of Grand Shooter game."
 ---
 

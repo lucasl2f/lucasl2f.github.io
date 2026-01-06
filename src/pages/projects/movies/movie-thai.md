@@ -6,7 +6,7 @@ description: 'Short movie'
 languages: []
 youtubeLink: 'https://www.youtube.com/watch?v=L_ZR-1CE9q0'
 image:
-  url: "/images/projects/movie-thai.jpg"
+  url: "/images/projects/movie-thai.png"
   alt: "Thumbnail of Thai short movie."
 ---
 
