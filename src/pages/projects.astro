@@ -1,0 +1,102 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeroIndex from "../components/portfolio/HeroIndex.astro";
+import Project from "../components/portfolio/Project.astro";
+const pageTitle = "Lucas Fonseca";
+const description = "Game Developer";
+import Heading from "../components/ui/Heading.astro";
+import { Icon } from "astro-icon/components";
+const ogimage = {
+    url: "/images/profile.jpeg",
+    alt: "",
+};
+const allGames = await Astro.glob("./projects/games/*.md");
+// Sort by descending date (most recent first)
+allGames.sort(
+    (a, b) =>
+        new Date(b.frontmatter.pubDate).getTime() -
+        new Date(a.frontmatter.pubDate).getTime(),
+);
+
+const allMovies = await Astro.glob("./projects/movies/*.md");
+// Sort by descending date (most recent first)
+allMovies.sort(
+    (a, b) =>
+        new Date(b.frontmatter.pubDate).getTime() -
+        new Date(a.frontmatter.pubDate).getTime(),
+);
+---
+
+<Layout pageTitle={pageTitle} description={description} ogimage={ogimage}>
+    <section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="projects">
+        <div class="flex flex-col pt-8 max-w-4xl mx-auto">
+            <div class="flex gap-4 items-center justify-center">
+                <Icon
+                    class="text-3xl dark:text-white text-blacktext"
+                    name="code"
+                />
+                <Heading text="Games" level={3} />
+            </div>
+
+            <section class="relative pt-8 pb-32 max-2xl:px-8 max-md:pt-4">
+                <div class="mx-auto max-w-7xl py-8">
+                    <slot />
+                </div>
+
+                <div
+                    id="containerProjects"
+                    class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 auto-rows-fr gap-5 p-2 py-4 overflow-hidden transition-[max-height] duration-500 ease-in-out"
+                >
+                    {
+                        allGames.map((post) => (
+                            <Project
+                                url={post.url}
+                                title={post.frontmatter.title}
+                                description={post.frontmatter.description}
+                                date={post.frontmatter.pubDate}
+                                languages={post.frontmatter.languages}
+                                image={post.frontmatter.image}
+                            />
+                        ))
+                    }
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="projects">
+        <div class="flex flex-col pt-8 max-w-4xl mx-auto">
+            <div class="flex gap-4 items-center justify-center">
+                <Icon
+                    class="text-3xl dark:text-white text-blacktext"
+                    name="code"
+                />
+                <Heading text="Movies" level={3} />
+            </div>
+
+            <section class="relative pt-8 pb-32 max-2xl:px-8 max-md:pt-4">
+                <div class="mx-auto max-w-7xl py-8">
+                    <slot />
+                </div>
+
+                <div
+                    id="containerProjects"
+                    class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 auto-rows-fr gap-5 p-2 py-4 overflow-hidden transition-[max-height] duration-500 ease-in-out"
+                >
+                    {
+                        allMovies.map((post) => (
+                            <Project
+                                url={post.url}
+                                title={post.frontmatter.title}
+                                description={post.frontmatter.description}
+                                date={post.frontmatter.pubDate}
+                                languages={post.frontmatter.languages}
+                                image={post.frontmatter.image}
+                            />
+                        ))
+                    }
+                </div>
+            </section>
+        </div>
+    </section>
+</Layout>
