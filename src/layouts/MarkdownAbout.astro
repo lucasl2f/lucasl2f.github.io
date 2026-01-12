@@ -75,7 +75,7 @@ const { frontmatter } = Astro.props;
                                 >Game Developer</b
                             > with <b
                                 class="bg-gradient-to-r from-riptide-400 to-mint-500 dark:to-mint-200 dark:from-riptide-300 text-transparent bg-clip-text"
-                                >10 years of experience</b
+                                >10 years+ of experience</b
                             >, passionate about code and art.
                         </p>
                     </div>
@@ -90,25 +90,6 @@ const { frontmatter } = Astro.props;
             </div>
         </article>
         <NavArticle title={frontmatter.title} />
-    </section>
-    <section class="py-8 px-8 max-md:py-4 mb-4 scroll-m-16" id="experience">
-        <div class="flex flex-col gap-8 pt-8 max-w-4xl mx-auto">
-            <div class="flex gap-4 items-center justify-center">
-                <Icon class="text-3xl text-white" name="briefcase" />
-                <Heading text="Experience" textGradient="Work" level={2} />
-            </div>
-
-            <Experience />
-        </div>
-    </section>
-    <section class="py-8 px-8 max-md:py-4 mt-10 mb-20 scroll-m-16" id="sttack">
-        <div class="flex flex-col gap-8 max-w-3xl justify-center mx-auto">
-            <div class="flex gap-4 items-center justify-center">
-                <Icon class="text-3xl text-white" name="dashboard" />
-                <Heading text="Stack" textGradient="Technological" level={2} />
-            </div>
-            <Tools variant="center" />
-        </div>
     </section>
     <Contact />
 </Layout>
