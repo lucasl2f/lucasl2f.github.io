@@ -10,7 +10,8 @@ const ogimage = {
     url: "/images/profile.jpeg",
     alt: "",
 };
-const allGames = await Astro.glob("./projects/games/*.md");
+const matchesGames = import.meta.glob("./projects/games/*.md", { eager: true });
+const allGames = Object.values(matchesGames); // Returns [] if no files found
 // Sort by descending date (most recent first)
 allGames.sort(
     (a, b) =>
@@ -18,7 +19,10 @@ allGames.sort(
         new Date(a.frontmatter.pubDate).getTime(),
 );
 
-const allMovies = await Astro.glob("./projects/movies/*.md");
+const matchesMovies = import.meta.glob("./projects/movies/*.md", {
+    eager: true,
+});
+const allMovies = Object.values(matchesMovies); // Returns [] if no files found
 // Sort by descending date (most recent first)
 allMovies.sort(
     (a, b) =>

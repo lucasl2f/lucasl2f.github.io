@@ -1,6 +1,10 @@
 ---
 import Project from "./Project.astro";
-const allGames = await Astro.glob("../../pages/projects/games/*.md");
+// { eager: true } mimics Astro.glob's behavior of loading content immediately
+const matches = import.meta.glob("../../pages/projects/games/*.md", {
+    eager: true,
+});
+const allGames = Object.values(matches); // Returns [] if no files foundS
 // Sort by descending date (most recent first)
 allGames.sort(
     (a, b) =>
