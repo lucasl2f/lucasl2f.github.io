@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Experience from "../components/portfolio/Experience.astro";
 import HeroIndex from "../components/portfolio/HeroIndex.astro";
 import ListProjects from "../components/portfolio/ListProjects.astro";
+import Button from "../components/ui/Button.astro";
 import { Icon } from "astro-icon/components";
 const pageTitle = "Lucas Fonseca";
 const description = "Game Developer";
@@ -41,6 +42,14 @@ import Heading from "../components/ui/Heading.astro";
             </div>
 
             <ListProjects />
+            <div class="flex items-center justify-center">
+                <Button
+                    link="/projects"
+                    text="More projects"
+                    iconName="briefcase"
+                    variant="dark"
+                />
+            </div>
         </div>
     </section>
 </Layout>

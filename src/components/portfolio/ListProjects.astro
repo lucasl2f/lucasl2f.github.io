@@ -7,14 +7,6 @@ allGames.sort(
         new Date(b.frontmatter.pubDate).getTime() -
         new Date(a.frontmatter.pubDate).getTime(),
 );
-
-const allMovies = await Astro.glob("../../pages/projects/movies/*.md");
-// Sort by descending date (most recent first)
-allMovies.sort(
-    (a, b) =>
-        new Date(b.frontmatter.pubDate).getTime() -
-        new Date(a.frontmatter.pubDate).getTime(),
-);
 ---
 
 <section class="relative pt-8 pb-32 max-2xl:px-8 max-md:pt-4">
@@ -27,16 +19,18 @@ allMovies.sort(
         class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 auto-rows-fr gap-5 p-2 py-4 overflow-hidden transition-[max-height] duration-500 ease-in-out"
     >
         {
-            [...allGames, ...allMovies].map((post) => (
-                <Project
-                    url={post.url}
-                    title={post.frontmatter.title}
-                    description={post.frontmatter.description}
-                    date={post.frontmatter.pubDate}
-                    languages={post.frontmatter.languages}
-                    image={post.frontmatter.image}
-                />
-            ))
+            allGames
+                .slice(0, 4)
+                .map((post) => (
+                    <Project
+                        url={post.url}
+                        title={post.frontmatter.title}
+                        description={post.frontmatter.description}
+                        date={post.frontmatter.pubDate}
+                        languages={post.frontmatter.languages}
+                        image={post.frontmatter.image}
+                    />
+                ))
         }
     </div>
 </section>
