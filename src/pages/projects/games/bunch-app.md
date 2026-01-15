@@ -16,6 +16,12 @@ Play it on iOS: https://apps.apple.com/us/app/bunch-is-miniparty/id1294869021
 
 Play it on your browser: https://www.mini.party/
 
+## About the project
+
+Working on the Bunch app was a fantastic opportunity to dive deep into multiplayer development. Built on Unity and Quantum, the app required an extensive list of real-time features, which taught me how to properly design and implement synced events across devices.
+
+Over the course of three years, I was part of the team that developed several mini-games, over 10 public hangout spaces, various home environments (including a decorating system), and full character customization.
+
 ## 🧩 Rule
 
-- Unity developer
+- Unity / Quantum developer

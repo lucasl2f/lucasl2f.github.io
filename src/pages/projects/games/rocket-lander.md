@@ -14,6 +14,13 @@ image:
 
 Play it on Itch.io: https://metal2f.itch.io/rocket-lander
 
+## About the project
+
+This was my very first project in Godot. I was looking for an excuse to finally dive into the engine, and this was it.
+
+Rocket Lander was built in just one month as part of a challenge with a friend: we formed a collective to take turns releasing a game every few months.
+The one-month timebox was intense, but I'm honestly pretty satisfied with the result. The list of things I could improve is huge, but I’m deciding to save those lessons for my next projects instead.
+
 ## 🧩 Rule
 
 - Solo indie developer
