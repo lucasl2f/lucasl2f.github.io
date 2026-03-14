@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["godot"]
 youtubeLink: 'https://youtu.be/JUF3M92Xawg'
 image:
-  url: "images/projects/game-rocket-lander.jpg"
+  url: "/images/projects/game-rocket-lander.jpg"
   alt: "Thumbnail of Rocket Lander game."
 ---
 

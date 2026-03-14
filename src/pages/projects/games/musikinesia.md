@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["unity"]
 youtubeLink: 'https://www.youtube.com/watch?v=YnNBNa7CR50'
 image:
-  url: "images/projects/game-musikinesia.jpg"
+  url: "/images/projects/game-musikinesia.jpg"
   alt: "Thumbnail of Musikinesia game."
 ---
 

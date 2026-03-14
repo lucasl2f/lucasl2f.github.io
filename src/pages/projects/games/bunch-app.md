@@ -6,7 +6,7 @@ description: 'Game'
 languages: ["unity"]
 youtubeLink: 'https://youtu.be/kPbdj8A-Oh8'
 image:
-  url: "images/projects/game-bunch.jpg"
+  url: "/images/projects/game-bunch.jpg"
   alt: "Thumbnail of Bunchverse app."
 ---
 
