@@ -46,7 +46,6 @@
         │   ├── 📁portfolio
         │   │   └── 📁projects         # Portfolio projects
         │   ├── robots.txt.ts          # robots.txt configuration
-        │   └── rss.xml.js             # RSS configuration
         ├── 📁scripts
         │   └── menu.js                # Menu script
         ├── 📁styles
@@ -85,7 +84,6 @@
 
 3. **🔍 SEO & Analytics**
    - Built-in sitemap generation
-   - RSS feed support
    - Vercel Speed Insights
 
 4. **🎨 Styling & UI**
@@ -221,4 +219,3 @@ The site is configured for deployment on Vercel, but can be deployed to any stat
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
