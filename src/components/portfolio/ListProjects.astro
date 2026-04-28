@@ -13,18 +13,18 @@ allGames.sort(
 );
 ---
 
-<section class="relative pt-8 pb-32 max-2xl:px-8 max-md:pt-4">
-    <div class="mx-auto max-w-7xl py-8">
+<section class="relative pt-8 pb-8 max-2xl:px-8 max-md:pt-4">
+    <div class="mx-auto max-w-7xl py-2">
         <slot />
     </div>
 
     <div
         id="containerProjects"
-        class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 auto-rows-fr gap-5 p-2 py-4 overflow-hidden transition-[max-height] duration-500 ease-in-out"
+        class="mx-auto max-w-7xl grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 auto-rows-fr gap-5 p-2 py-2 overflow-hidden transition-[max-height] duration-500 ease-in-out"
     >
         {
             allGames
-                .slice(0, 4)
+                // .slice(0, 4)
                 .map((post) => (
                     <Project
                         url={post.url}
