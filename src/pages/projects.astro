@@ -10,7 +10,10 @@ const ogimage = {
     url: "/images/profile.jpeg",
     alt: "",
 };
-const matchesGames = import.meta.glob("./projects/games/*.md", { eager: true });
+const matchesGames = import.meta.glob(
+  ["./projects/games/*.md", "./projects/games/*.mdx"],
+  { eager: true }
+);
 const allGames = Object.values(matchesGames); // Returns [] if no files found
 // Sort by descending date (most recent first)
 allGames.sort(

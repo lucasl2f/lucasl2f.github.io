@@ -1,0 +1,51 @@
+---
+layout:  /src/layouts/MovieLayout.astro
+title: 'Evanopolis'
+pubDate: 2026-04-29
+description: 'Game'
+languages: ["godot"]
+image:
+  url: "/images/projects/game-evanopolis-ui-slice-1.jpg"
+  alt: "Thumbnail of Bunchverse app."
+---
+
+import { YouTube } from "@astro-community/astro-embed-youtube";
+
+<div>
+<img src="/images/projects/game-evanopolis-ui-slice-2.jpg" />
+<br />
+</div>
+
+**Evanopolis** is a multiplayer board game about property ownership and Bitcoin mining, developed in Godot.
+
+## About the Project
+I joined the project at an early stage to work on multiplayer communication and UX design.
+
+### Tabletop
+During the first months, I worked on Tabletop, an open-source foundation for Evanopolis’ multiplayer architecture.
+
+The main goal was to establish reliable communication between multiple clients, with the first connected player acting as the host. We implemented this using Godot’s native RPC system, alongside a minimal UI for testing and iteration.
+
+This prototype included a functional chat system that handled connection and disconnection events across clients.
+
+<YouTube id="https://youtu.be/UX67LVz3n2g" />
+
+Repository: https://github.com/Falafel-Open-Games/tabletop
+
+### Evanopolis UI Slice
+The UI Slice represents the first full implementation of the game using the networking foundation built in Tabletop. It includes a 3D board, core gameplay systems, and a complete playable experience across local clients.
+
+At this stage, I focused on UX design and interaction flows. I designed and documented all core player actions in Figma, including dice rolling, property purchasing, rent payments, and mortgage systems. These flows helped define the structure of the final gameplay experience.
+
+I also contributed to refining camera behavior and overall user interaction within the 3D environment.
+
+Testing new camera movement:
+
+<YouTube id="https://youtube.com/shorts/SRJTb8Zkcd4" />
+
+Repository: https://github.com/Falafel-Open-Games/evanopolis-ui-slice
+
+## 🧩 Rule
+
+- Godot developer
+- UX designer
